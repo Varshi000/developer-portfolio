@@ -1,37 +1,21 @@
 [
   {
-    "id": "exp-1",
-    "role": "Full Stack Software Engineer",
-    "company": "Tech Innovations Studio",
-    "companyUrl": "https://example.com/company",
-    "location": "San Francisco, CA (Hybrid)",
-    "startDate": "2024",
-    "endDate": "Present",
+    "id": "tri-tech-innovations",
+    "role": "AI Application & Full-Stack Developer",
+    "company": "Tri Tech Innovations Private Limited",
+    "companyUrl": "https://tritechinnovations.com",
+    "location": "India",
+    "startDate": "Oct 2025",
+    "endDate": "Oct 2026",
     "current": true,
-    "summary": "Building modern client-facing web applications, optimizing component architecture, and engineering resilient API integrations.",
+    "summary": "Engineering scalable web and mobile applications integrating conversational AI, MCP server architectures, and high-performance FastAPI backends.",
     "responsibilities": [
-      "Engineered core web application interfaces using Next.js, React, and TypeScript with strict type boundaries.",
-      "Collaborated closely with designers and product managers to implement fluid, accessible animations and responsive design systems.",
-      "Streamlined REST API endpoints and database queries in PostgreSQL, improving data fetch speeds by over 30%.",
-      "Authored automated integration test suites using Jest to maintain robust production stability."
+      "Applicant Management System: Built a full-featured automated recruitment system with role-based access control, candidate tracking, interview scheduling, and real-time status updates using ReactJS, FastAPI, and MySQL.",
+      "ezstaf Job Platform: Engineered a scalable cross-platform mobile job portal using Flutter, FastAPI, and PostgreSQL connecting job seekers with employers.",
+      "AI Chatbot & Speech Processing: Integrated conversational chatbot workflows using Model Context Protocol (MCP) Server, Speech-to-Text (STT) audio pipelines, and ffmpeg processing.",
+      "Security & Performance: Implemented secure JWT authentication, profile management, and resilient RESTful microservice APIs optimized for high speed and reliability."
     ],
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"]
-  },
-  {
-    "id": "exp-2",
-    "role": "Frontend Developer",
-    "company": "Digital Media Labs",
-    "companyUrl": "https://example.com/studio",
-    "location": "Remote",
-    "startDate": "2022",
-    "endDate": "2024",
-    "current": false,
-    "summary": "Developed reactive web interfaces and component design libraries for high-traffic content and analytics portals.",
-    "responsibilities": [
-      "Built interactive dashboards and reusable UI components adhering to WCAG 2.1 AA accessibility standards.",
-      "Implemented client-side caching strategies and code-splitting, contributing to sub-second initial contentful paint times.",
-      "Participated actively in peer code reviews, sprint planning, and architectural technical documentation."
-    ],
-    "technologies": ["React", "JavaScript", "Tailwind CSS", "REST APIs", "Git", "Figma"]
+    "technologies": ["FastAPI", "ReactJS", "Flutter", "PostgreSQL", "MySQL", "MCP Server", "Speech-to-Text", "JWT", "Node.js"]
   }
 ]
+

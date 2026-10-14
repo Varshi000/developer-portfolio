@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, useReducedMotion } from "motion/react";
-import { ExternalLink, Check, Sparkles, FolderGit2 } from "lucide-react";
+import { motion } from "motion/react";
+import { useReducedMotion } from "@/hooks/useReducedMotion";
+import { ExternalLink, Check, Sparkles, FolderGit2, Bot, Smartphone, Layers, Server } from "lucide-react";
 import { GithubIcon } from "@/components/ui/IconRenderer";
 import { Container } from "@/components/ui/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";
@@ -22,6 +23,15 @@ export const ProjectsSection: React.FC = () => {
     filter === "All"
       ? projects
       : projects.filter((p) => p.category === filter);
+
+  const getProjectIcon = (category: string) => {
+    const cat = category.toLowerCase();
+    if (cat.includes("ai")) return <Bot className="w-7 h-7" />;
+    if (cat.includes("mobile")) return <Smartphone className="w-7 h-7" />;
+    if (cat.includes("full stack")) return <Layers className="w-7 h-7" />;
+    if (cat.includes("web")) return <Server className="w-7 h-7" />;
+    return <FolderGit2 className="w-7 h-7" />;
+  };
 
   return (
     <section id="projects" className="py-20 md:py-28 relative">
@@ -79,7 +89,7 @@ export const ProjectsSection: React.FC = () => {
                   {/* Icon illustration showcase */}
                   <div className="relative z-10 flex flex-col items-center gap-2 text-center px-4">
                     <div className="w-14 h-14 rounded-2xl bg-[#1d1d2d]/80 border border-purple-500/30 text-purple-300 flex items-center justify-center shadow-lg shadow-black/40 group-hover:scale-110 transition-transform duration-300">
-                      <FolderGit2 className="w-7 h-7" />
+                      {getProjectIcon(project.category)}
                     </div>
                     <span className="text-xs uppercase tracking-wider font-mono text-purple-300/80">
                       {project.category}
@@ -142,7 +152,7 @@ export const ProjectsSection: React.FC = () => {
                       ))}
                     </div>
 
-                    {/* Action Links */}
+                    {/* Action Links / Project Status */}
                     <div className="flex items-center gap-3">
                       {project.githubUrl && (
                         <Button
@@ -169,6 +179,18 @@ export const ProjectsSection: React.FC = () => {
                         >
                           Live Demo
                         </Button>
+                      )}
+
+                      {!project.githubUrl && !project.liveDemoUrl && (
+                        <div className="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white/[0.03] border border-white/[0.08] text-xs">
+                          <span className="flex items-center gap-2 text-neutral-300 font-medium">
+                            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                            <span>System Architecture & Features Ready</span>
+                          </span>
+                          <span className="text-[11px] font-mono text-purple-300/90 bg-purple-950/40 border border-purple-500/20 px-2 py-0.5 rounded-md">
+                            Internal / Academic
+                          </span>
+                        </div>
                       )}
                     </div>
                   </div>

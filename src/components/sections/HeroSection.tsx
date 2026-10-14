@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { motion, useReducedMotion, type Variants } from "motion/react";
+import { motion, type Variants } from "motion/react";
+import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { ArrowRight, FileDown, Terminal, Sparkles, MapPin, CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
@@ -183,10 +184,16 @@ export const HeroSection: React.FC = () => {
                 </div>
                 <div className="pl-4">
                   <span className="text-neutral-400">coreStack:</span> [
-                  <span className="text-amber-300">&quot;React&quot;</span>,{" "}
-                  <span className="text-amber-300">&quot;Next.js&quot;</span>,{" "}
-                  <span className="text-amber-300">&quot;TypeScript&quot;</span>,{" "}
-                  <span className="text-amber-300">&quot;Tailwind&quot;</span>
+                  <span className="text-amber-300">&quot;FastAPI&quot;</span>,{" "}
+                  <span className="text-amber-300">&quot;ReactJS&quot;</span>,{" "}
+                  <span className="text-amber-300">&quot;Flutter&quot;</span>,{" "}
+                  <span className="text-amber-300">&quot;Node.js&quot;</span>
+                  ],
+                </div>
+                <div className="pl-4">
+                  <span className="text-neutral-400">aiIntegration:</span> [
+                  <span className="text-amber-300">&quot;LLM Chatbots&quot;</span>,{" "}
+                  <span className="text-amber-300">&quot;MCP Server&quot;</span>
                   ],
                 </div>
                 <div className="pl-4">
@@ -198,7 +205,7 @@ export const HeroSection: React.FC = () => {
                 </div>
                 <div className="pl-8 text-neutral-400">
                   <span className="text-purple-300">return</span>{" "}
-                  <span className="text-emerald-300">&quot;Building performant, animated web apps.&quot;</span>;
+                  <span className="text-emerald-300">&quot;Engineering AI-enabled full-stack & backend solutions.&quot;</span>;
                 </div>
                 <div className="pl-4">&#125;</div>
                 <div>&#125;;</div>

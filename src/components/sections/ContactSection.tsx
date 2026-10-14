@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { Mail, Copy, Check, Send, Sparkles, MessageSquare } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";

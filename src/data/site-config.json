@@ -1,17 +1,19 @@
 {
-  "siteTitle": "Developer Portfolio | Modern & Animated Portfolio",
-  "siteDescription": "A modern, animated, dark-themed developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Motion.",
+  "siteTitle": "Hema Varshini Kommoju | AI Application & Full-Stack Developer",
+  "siteDescription": "Portfolio of Hema Varshini Kommoju - AI Application & Full-Stack Developer specializing in FastAPI, React, Flutter, Node.js, and GenAI integrations.",
   "siteKeywords": [
-    "Developer Portfolio",
+    "Hema Varshini Kommoju",
+    "AI Application Developer",
     "Full Stack Developer",
-    "Frontend Engineer",
-    "Next.js Portfolio",
-    "TypeScript",
-    "React",
-    "Tailwind CSS"
+    "FastAPI",
+    "ReactJS",
+    "Flutter",
+    "Node.js",
+    "MCP Server",
+    "Conversational AI"
   ],
   "siteUrl": "https://developer-portfolio-demo.vercel.app",
-  "author": "Alex Rivera",
+  "author": "Hema Varshini Kommoju",
   "navLinks": [
     { "id": "home", "label": "Home", "href": "#home" },
     { "id": "about", "label": "About", "href": "#about" },
@@ -21,6 +23,7 @@
     { "id": "education", "label": "Education", "href": "#education" },
     { "id": "contact", "label": "Contact", "href": "#contact" }
   ],
-  "resumeUrl": "/resume/resume-placeholder.pdf",
-  "footerText": "Crafted with Next.js, TypeScript, Tailwind CSS & Motion. Designed with focus on performance, accessibility, and modern aesthetics."
+  "resumeUrl": "#contact",
+  "footerText": "Designed & Built by Hema Varshini Kommoju. Powered by Next.js, TypeScript, Tailwind CSS & Motion."
 }
+
