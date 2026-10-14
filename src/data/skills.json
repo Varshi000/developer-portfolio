@@ -1,73 +1,80 @@
 [
   {
-    "id": "frontend",
-    "title": "Frontend",
-    "description": "Building responsive, accessible, and high-performance interfaces.",
-    "iconName": "Layout",
+    "id": "ai-genai",
+    "title": "AI & GenAI Integration",
+    "description": "Building LLM-powered applications, conversational chatbots, and MCP systems.",
+    "iconName": "Sparkles",
     "skills": [
-      { "name": "React.js", "level": "Advanced", "iconName": "Atom" },
-      { "name": "Next.js (App Router)", "level": "Advanced", "iconName": "Globe" },
-      { "name": "TypeScript", "level": "Advanced", "iconName": "FileCode2" },
-      { "name": "Tailwind CSS", "level": "Advanced", "iconName": "Palette" },
-      { "name": "Motion (Framer Motion)", "level": "Proficient", "iconName": "Sparkles" },
-      { "name": "HTML5 / Semantic Web", "level": "Advanced", "iconName": "Code" },
-      { "name": "CSS3 / Modern CSS", "level": "Advanced", "iconName": "Brush" },
-      { "name": "Vue.js", "level": "Familiar", "iconName": "FileCode" }
+      { "name": "LLM Application Integration", "level": "Advanced", "iconName": "Cpu" },
+      { "name": "AI Chatbots", "level": "Advanced", "iconName": "Bot" },
+      { "name": "Prompt Engineering", "level": "Advanced", "iconName": "Terminal" },
+      { "name": "MCP Server Architecture", "level": "Proficient", "iconName": "Server" },
+      { "name": "Conversational AI", "level": "Proficient", "iconName": "MessageSquare" },
+      { "name": "Speech-to-Text (STT)", "level": "Proficient", "iconName": "Mic" }
     ]
   },
   {
     "id": "backend",
-    "title": "Backend",
-    "description": "Architecting resilient RESTful APIs and server-side services.",
+    "title": "Backend & Microservices",
+    "description": "Architecting high-throughput REST APIs and secure authentication services.",
     "iconName": "Server",
     "skills": [
+      { "name": "FastAPI", "level": "Advanced", "iconName": "Zap" },
       { "name": "Node.js", "level": "Advanced", "iconName": "Cpu" },
-      { "name": "Express.js", "level": "Advanced", "iconName": "Server" },
+      { "name": "Spring Boot", "level": "Proficient", "iconName": "Box" },
       { "name": "RESTful APIs", "level": "Advanced", "iconName": "Network" },
-      { "name": "Python", "level": "Proficient", "iconName": "Terminal" },
-      { "name": "GraphQL", "level": "Proficient", "iconName": "Share2" },
-      { "name": "Authentication (JWT / OAuth)", "level": "Advanced", "iconName": "Lock" }
+      { "name": "JWT Authentication", "level": "Advanced", "iconName": "Lock" }
+    ]
+  },
+  {
+    "id": "frontend-mobile",
+    "title": "Frontend & Mobile",
+    "description": "Engineering reactive web interfaces and cross-platform mobile experiences.",
+    "iconName": "Layout",
+    "skills": [
+      { "name": "ReactJS", "level": "Advanced", "iconName": "Atom" },
+      { "name": "Flutter", "level": "Advanced", "iconName": "Smartphone" },
+      { "name": "JavaScript (ES6+)", "level": "Advanced", "iconName": "FileCode2" },
+      { "name": "HTML5 & CSS3", "level": "Advanced", "iconName": "Code" }
+    ]
+  },
+  {
+    "id": "languages",
+    "title": "Programming Languages",
+    "description": "Core computer science languages for systems, scripting, and enterprise development.",
+    "iconName": "Code2",
+    "skills": [
+      { "name": "Python", "level": "Advanced", "iconName": "Terminal" },
+      { "name": "Java", "level": "Proficient", "iconName": "Coffee" },
+      { "name": "JavaScript", "level": "Advanced", "iconName": "FileCode" },
+      { "name": "SQL", "level": "Advanced", "iconName": "Database" },
+      { "name": "C", "level": "Proficient", "iconName": "Code2" }
     ]
   },
   {
     "id": "databases",
     "title": "Databases",
-    "description": "Designing normalized schemas and high-efficiency queries.",
+    "description": "Designing relational and document database schemas with query optimization.",
     "iconName": "Database",
     "skills": [
+      { "name": "MySQL", "level": "Advanced", "iconName": "Database" },
       { "name": "PostgreSQL", "level": "Advanced", "iconName": "Database" },
-      { "name": "MongoDB", "level": "Proficient", "iconName": "HardDrive" },
-      { "name": "Redis", "level": "Proficient", "iconName": "Zap" },
-      { "name": "Prisma ORM", "level": "Advanced", "iconName": "Boxes" },
-      { "name": "Supabase", "level": "Proficient", "iconName": "Flame" }
-    ]
-  },
-  {
-    "id": "mobile",
-    "title": "Mobile Development",
-    "description": "Crafting cross-platform mobile experiences.",
-    "iconName": "Smartphone",
-    "skills": [
-      { "name": "React Native", "level": "Proficient", "iconName": "Smartphone" },
-      { "name": "Expo", "level": "Proficient", "iconName": "Play" },
-      { "name": "Mobile UI/UX", "level": "Proficient", "iconName": "SmartphoneCharging" },
-      { "name": "Flutter Basics", "level": "Familiar", "iconName": "Feather" }
+      { "name": "MongoDB", "level": "Proficient", "iconName": "HardDrive" }
     ]
   },
   {
     "id": "tools",
-    "title": "Tools and Technologies",
-    "description": "Modern toolchains, version control, and deployment pipelines.",
+    "title": "Developer Tools",
+    "description": "Tooling, API testing suites, app deployment, and database administration.",
     "iconName": "Wrench",
     "skills": [
-      { "name": "Git & GitHub", "level": "Advanced", "iconName": "GitBranch" },
-      { "name": "Docker", "level": "Proficient", "iconName": "Container" },
-      { "name": "CI/CD Pipelines", "level": "Proficient", "iconName": "Workflow" },
-      { "name": "Vercel & Cloudflare", "level": "Advanced", "iconName": "Cloud" },
-      { "name": "Linux / Bash", "level": "Proficient", "iconName": "TerminalSquare" },
-      { "name": "Jest / Vitest", "level": "Proficient", "iconName": "CheckCircle2" },
-      { "name": "Figma", "level": "Proficient", "iconName": "Figma" },
-      { "name": "Postman", "level": "Advanced", "iconName": "Send" }
+      { "name": "VS Code", "level": "Advanced", "iconName": "Code" },
+      { "name": "GitHub & Git", "level": "Advanced", "iconName": "GitBranch" },
+      { "name": "Postman", "level": "Advanced", "iconName": "Send" },
+      { "name": "Swagger UI", "level": "Advanced", "iconName": "FileText" },
+      { "name": "Google Play Console", "level": "Proficient", "iconName": "Play" },
+      { "name": "DBeaver", "level": "Proficient", "iconName": "Layers" }
     ]
   }
 ]
+

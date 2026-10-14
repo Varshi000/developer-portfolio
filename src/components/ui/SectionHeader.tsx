@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { motion, useReducedMotion, type Variants } from "motion/react";
+import { motion, type Variants } from "motion/react";
+import { useReducedMotion } from "@/hooks/useReducedMotion";
 import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/utils";
 

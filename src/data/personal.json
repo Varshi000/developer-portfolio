@@ -1,11 +1,11 @@
 {
-  "name": "Alex Rivera",
-  "role": "Full Stack & Frontend Engineer",
-  "tagline": "Crafting performant web experiences with modern architectures, clean code, and fluid motion.",
-  "shortBio": "Software engineer specializing in building responsive, accessible, and high-impact digital experiences using modern web technologies.",
-  "location": "San Francisco, CA (or Remote)",
+  "name": "Hema Varshini Kommoju",
+  "role": "AI Engineer & Full-Stack Developer",
+  "tagline": "Specializing in AI-integrated full-stack architectures, high-performance FastAPI/Node.js backends, and modern React & Flutter apps.",
+  "shortBio": "Software Developer with hands-on experience designing scalable web and mobile applications, integrating LLM-driven chatbots, MCP servers, and building robust RESTful microservices.",
+  "location": "India (Open to Relocation & Remote)",
   "avatarUrl": "/images/avatar-placeholder.svg",
   "availableForHire": true,
-  "statusText": "Available for new opportunities",
-  "resumeDownloadUrl": "/resume/resume-placeholder.pdf"
+  "statusText": "Available for Opportunities",
+  "resumeDownloadUrl": "#contact"
 }

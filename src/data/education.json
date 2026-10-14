@@ -1,18 +1,32 @@
 [
   {
-    "id": "edu-1",
-    "degree": "Bachelor of Science",
+    "id": "edu-btech",
+    "degree": "Bachelor of Technology",
     "fieldOfStudy": "Computer Science & Engineering",
-    "institution": "University / Institute Name",
-    "institutionUrl": "https://example.edu",
-    "location": "City, State / Country",
-    "startDate": "2019",
-    "endDate": "2023",
-    "gradeOrHonors": "First Class with Distinction",
+    "institution": "Aditya College of Engineering and Technology",
+    "institutionUrl": "https://acet.ac.in",
+    "location": "Andhra Pradesh, India",
+    "startDate": "2021",
+    "endDate": "2025",
+    "gradeOrHonors": "Percentage: 71%",
     "highlights": [
-      "Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, Operating Systems, Web Technologies.",
-      "Lead developer on final-year capstone project focused on distributed web systems and data visualization.",
-      "Active member of university coding club and technical hackathon coordinator."
+      "Core Coursework: Data Structures & Algorithms, Database Management Systems (DBMS), Operating Systems, Software Engineering, Object-Oriented Programming (Java, Python, C).",
+      "Certifications: IT Specialist (Python & Java) | Cisco Programming Essentials (C & Python) | Cisco Certified (Cybersecurity & Data Science) | Oracle Recognition (Database Management).",
+      "Specialized in AI-integrated application development, RESTful microservices, and modern web/mobile architecture."
+    ]
+  },
+  {
+    "id": "edu-inter",
+    "degree": "Intermediate (MPC)",
+    "fieldOfStudy": "Mathematics, Physics & Chemistry",
+    "institution": "Sagar Junior College",
+    "location": "Andhra Pradesh, India",
+    "startDate": "2019",
+    "endDate": "2021",
+    "gradeOrHonors": "Percentage: 85%",
+    "highlights": [
+      "Graduated with 85% aggregate, developing strong mathematical problem-solving skills and scientific foundations."
     ]
   }
 ]
+

@@ -1,49 +1,50 @@
 {
   "greeting": "About Me",
-  "headline": "Engineering modern, scalable web solutions with a passion for craftsmanship.",
+  "headline": "Engineering AI-enabled software solutions, high-performance backends, and seamless digital experiences.",
   "paragraphs": [
-    "Hello! I am a software engineer dedicated to building performant web applications and intuitive user interfaces. I enjoy transforming complex challenges into elegant, resilient systems.",
-    "My journey spans working across the entire web ecosystem—from crafting reactive user interfaces to architecting robust APIs and database structures. I prioritize writing clean, maintainable code with strict type-safety and thorough accessibility.",
-    "When I'm not writing code, I love exploring emerging web standards, contributing to open-source discussions, and constantly refining my understanding of system design and user experience."
+    "Hello! I am Hema Varshini Kommoju, a Software Developer specializing in AI-integrated Full-Stack and Backend Development. I have hands-on experience designing and delivering scalable web and mobile applications from concept to deployment.",
+    "My technical expertise centers on architecting high-performance backend APIs using FastAPI and Node.js, alongside integrating AI capabilities including LLM-driven chatbots, Model Context Protocol (MCP) server architecture, speech-to-text (STT) processing, and conversational workflows. On the frontend, I engineer responsive, accessible applications using ReactJS and Flutter.",
+    "With a solid foundation in Python, Java, database management (MySQL, PostgreSQL, MongoDB), and RESTful microservices, I am passionate about end-to-end AI-enabled software solutions, prompt engineering, and agile product development."
   ],
   "highlights": [
     {
-      "title": "Clean Architecture",
-      "description": "Component-driven design, modular state management, and maintainable TypeScript patterns.",
-      "iconName": "Code2"
-    },
-    {
-      "title": "Performance First",
-      "description": "Optimized Core Web Vitals, smart asset loading, and high-efficiency rendering pipelines.",
-      "iconName": "Zap"
-    },
-    {
-      "title": "Fluid Motion & UX",
-      "description": "Thoughtful, accessible animations that bring interfaces to life without causing cognitive friction.",
+      "title": "AI & GenAI Integration",
+      "description": "Hands-on experience building LLM applications, MCP Server architecture, and speech-to-text conversational pipelines.",
       "iconName": "Sparkles"
     },
     {
-      "title": "Full-Stack Versatility",
-      "description": "Seamless integration between client interfaces, backend services, and structured databases.",
+      "title": "Backend Microservices",
+      "description": "Designing high-throughput APIs using FastAPI, Node.js, Spring Boot, and secure JWT authentication.",
+      "iconName": "Server"
+    },
+    {
+      "title": "Full-Stack & Mobile",
+      "description": "Crafting modern, reactive web interfaces in ReactJS and cross-platform mobile apps in Flutter.",
       "iconName": "Layers"
+    },
+    {
+      "title": "Database Engineering",
+      "description": "Schema design, query optimization, and data modeling across MySQL, PostgreSQL, and MongoDB.",
+      "iconName": "Database"
     }
   ],
   "stats": [
     {
-      "label": "Years Experience",
-      "value": "3+"
+      "label": "Industry Experience",
+      "value": "1+ Yr"
     },
     {
-      "label": "Projects Built",
+      "label": "B.Tech Academics",
+      "value": "71%"
+    },
+    {
+      "label": "Technologies & Tools",
       "value": "15+"
     },
     {
-      "label": "Tech Stacks Mastered",
-      "value": "8+"
-    },
-    {
-      "label": "Commitment to Quality",
-      "value": "100%"
+      "label": "Production Projects",
+      "value": "4+"
     }
   ]
 }
+

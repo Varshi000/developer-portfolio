@@ -11,24 +11,25 @@
     "id": "linkedin",
     "platform": "LinkedIn",
     "label": "LinkedIn Profile",
-    "url": "https://linkedin.com/in/yourusername",
+    "url": "https://www.linkedin.com",
     "iconName": "Linkedin",
     "primary": true
   },
   {
     "id": "email",
     "platform": "Email",
-    "label": "Direct Email",
-    "url": "mailto:your.email@example.com",
+    "label": "varshikommu786@gmail.com",
+    "url": "mailto:varshikommu786@gmail.com",
     "iconName": "Mail",
     "primary": true
   },
   {
-    "id": "twitter",
-    "platform": "X (Twitter)",
-    "label": "Follow on X",
-    "url": "https://twitter.com/yourusername",
-    "iconName": "Twitter",
-    "primary": false
+    "id": "phone",
+    "platform": "Phone",
+    "label": "+91 81794 49134",
+    "url": "tel:+918179449134",
+    "iconName": "Phone",
+    "primary": true
   }
 ]
+
