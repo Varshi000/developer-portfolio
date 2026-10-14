@@ -1,0 +1,18 @@
+[
+  {
+    "id": "edu-1",
+    "degree": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science & Engineering",
+    "institution": "University / Institute Name",
+    "institutionUrl": "https://example.edu",
+    "location": "City, State / Country",
+    "startDate": "2019",
+    "endDate": "2023",
+    "gradeOrHonors": "First Class with Distinction",
+    "highlights": [
+      "Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, Operating Systems, Web Technologies.",
+      "Lead developer on final-year capstone project focused on distributed web systems and data visualization.",
+      "Active member of university coding club and technical hackathon coordinator."
+    ]
+  }
+]

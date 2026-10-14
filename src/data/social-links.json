@@ -1,0 +1,34 @@
+[
+  {
+    "id": "github",
+    "platform": "GitHub",
+    "label": "GitHub Profile",
+    "url": "https://github.com/Varshi000",
+    "iconName": "Github",
+    "primary": true
+  },
+  {
+    "id": "linkedin",
+    "platform": "LinkedIn",
+    "label": "LinkedIn Profile",
+    "url": "https://linkedin.com/in/yourusername",
+    "iconName": "Linkedin",
+    "primary": true
+  },
+  {
+    "id": "email",
+    "platform": "Email",
+    "label": "Direct Email",
+    "url": "mailto:your.email@example.com",
+    "iconName": "Mail",
+    "primary": true
+  },
+  {
+    "id": "twitter",
+    "platform": "X (Twitter)",
+    "label": "Follow on X",
+    "url": "https://twitter.com/yourusername",
+    "iconName": "Twitter",
+    "primary": false
+  }
+]

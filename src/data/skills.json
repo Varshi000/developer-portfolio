@@ -1,0 +1,73 @@
+[
+  {
+    "id": "frontend",
+    "title": "Frontend",
+    "description": "Building responsive, accessible, and high-performance interfaces.",
+    "iconName": "Layout",
+    "skills": [
+      { "name": "React.js", "level": "Advanced", "iconName": "Atom" },
+      { "name": "Next.js (App Router)", "level": "Advanced", "iconName": "Globe" },
+      { "name": "TypeScript", "level": "Advanced", "iconName": "FileCode2" },
+      { "name": "Tailwind CSS", "level": "Advanced", "iconName": "Palette" },
+      { "name": "Motion (Framer Motion)", "level": "Proficient", "iconName": "Sparkles" },
+      { "name": "HTML5 / Semantic Web", "level": "Advanced", "iconName": "Code" },
+      { "name": "CSS3 / Modern CSS", "level": "Advanced", "iconName": "Brush" },
+      { "name": "Vue.js", "level": "Familiar", "iconName": "FileCode" }
+    ]
+  },
+  {
+    "id": "backend",
+    "title": "Backend",
+    "description": "Architecting resilient RESTful APIs and server-side services.",
+    "iconName": "Server",
+    "skills": [
+      { "name": "Node.js", "level": "Advanced", "iconName": "Cpu" },
+      { "name": "Express.js", "level": "Advanced", "iconName": "Server" },
+      { "name": "RESTful APIs", "level": "Advanced", "iconName": "Network" },
+      { "name": "Python", "level": "Proficient", "iconName": "Terminal" },
+      { "name": "GraphQL", "level": "Proficient", "iconName": "Share2" },
+      { "name": "Authentication (JWT / OAuth)", "level": "Advanced", "iconName": "Lock" }
+    ]
+  },
+  {
+    "id": "databases",
+    "title": "Databases",
+    "description": "Designing normalized schemas and high-efficiency queries.",
+    "iconName": "Database",
+    "skills": [
+      { "name": "PostgreSQL", "level": "Advanced", "iconName": "Database" },
+      { "name": "MongoDB", "level": "Proficient", "iconName": "HardDrive" },
+      { "name": "Redis", "level": "Proficient", "iconName": "Zap" },
+      { "name": "Prisma ORM", "level": "Advanced", "iconName": "Boxes" },
+      { "name": "Supabase", "level": "Proficient", "iconName": "Flame" }
+    ]
+  },
+  {
+    "id": "mobile",
+    "title": "Mobile Development",
+    "description": "Crafting cross-platform mobile experiences.",
+    "iconName": "Smartphone",
+    "skills": [
+      { "name": "React Native", "level": "Proficient", "iconName": "Smartphone" },
+      { "name": "Expo", "level": "Proficient", "iconName": "Play" },
+      { "name": "Mobile UI/UX", "level": "Proficient", "iconName": "SmartphoneCharging" },
+      { "name": "Flutter Basics", "level": "Familiar", "iconName": "Feather" }
+    ]
+  },
+  {
+    "id": "tools",
+    "title": "Tools and Technologies",
+    "description": "Modern toolchains, version control, and deployment pipelines.",
+    "iconName": "Wrench",
+    "skills": [
+      { "name": "Git & GitHub", "level": "Advanced", "iconName": "GitBranch" },
+      { "name": "Docker", "level": "Proficient", "iconName": "Container" },
+      { "name": "CI/CD Pipelines", "level": "Proficient", "iconName": "Workflow" },
+      { "name": "Vercel & Cloudflare", "level": "Advanced", "iconName": "Cloud" },
+      { "name": "Linux / Bash", "level": "Proficient", "iconName": "TerminalSquare" },
+      { "name": "Jest / Vitest", "level": "Proficient", "iconName": "CheckCircle2" },
+      { "name": "Figma", "level": "Proficient", "iconName": "Figma" },
+      { "name": "Postman", "level": "Advanced", "iconName": "Send" }
+    ]
+  }
+]

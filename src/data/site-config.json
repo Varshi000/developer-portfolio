@@ -1,0 +1,26 @@
+{
+  "siteTitle": "Developer Portfolio | Modern & Animated Portfolio",
+  "siteDescription": "A modern, animated, dark-themed developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Motion.",
+  "siteKeywords": [
+    "Developer Portfolio",
+    "Full Stack Developer",
+    "Frontend Engineer",
+    "Next.js Portfolio",
+    "TypeScript",
+    "React",
+    "Tailwind CSS"
+  ],
+  "siteUrl": "https://developer-portfolio-demo.vercel.app",
+  "author": "Alex Rivera",
+  "navLinks": [
+    { "id": "home", "label": "Home", "href": "#home" },
+    { "id": "about", "label": "About", "href": "#about" },
+    { "id": "skills", "label": "Skills", "href": "#skills" },
+    { "id": "projects", "label": "Projects", "href": "#projects" },
+    { "id": "experience", "label": "Experience", "href": "#experience" },
+    { "id": "education", "label": "Education", "href": "#education" },
+    { "id": "contact", "label": "Contact", "href": "#contact" }
+  ],
+  "resumeUrl": "/resume/resume-placeholder.pdf",
+  "footerText": "Crafted with Next.js, TypeScript, Tailwind CSS & Motion. Designed with focus on performance, accessibility, and modern aesthetics."
+}

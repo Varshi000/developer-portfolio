@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dev-flow-collab",
+    "title": "DevFlow Workspace",
+    "category": "Full Stack",
+    "tagline": "Real-time collaborative developer workspace with live syntax highlighting and team boards.",
+    "description": "A full-stack collaborative platform enabling engineering teams to organize architectural roadmaps, share code snippets with live syntax highlighting, and communicate seamlessly in real time.",
+    "features": [
+      "Real-time synchronized document and whiteboard state using WebSockets",
+      "Robust role-based access control (RBAC) with granular team permissions",
+      "Markdown editor with live code preview and multi-language syntax highlighting",
+      "Integrated search index across all team boards and shared documentation"
+    ],
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Socket.io"],
+    "imageUrl": "/images/projects/project-devflow.svg",
+    "githubUrl": "https://github.com/yourusername/devflow-workspace",
+    "liveDemoUrl": "https://devflow-workspace-demo.vercel.app",
+    "featured": true
+  },
+  {
+    "id": "pulse-analytics",
+    "title": "Pulse Metrics Dashboard",
+    "category": "Frontend",
+    "tagline": "Interactive telemetry dashboard featuring fluid charts and real-time metric streams.",
+    "description": "A high-performance analytics dashboard designed for monitoring application performance, API response latencies, and user engagement metrics with smooth customizable chart views.",
+    "features": [
+      "Modular dashboard widgets with drag-and-drop customization",
+      "Dynamic filtering by time window, geographical zone, and event category",
+      "Accessible dark/light color palette optimized for high-density telemetry displays",
+      "Responsive layout optimized for high-refresh desktop displays and mobile monitoring"
+    ],
+    "technologies": ["React", "TypeScript", "Tailwind CSS", "Motion", "Chart.js"],
+    "imageUrl": "/images/projects/project-pulse.svg",
+    "githubUrl": "https://github.com/yourusername/pulse-analytics-dashboard",
+    "liveDemoUrl": "https://pulse-metrics-dashboard.vercel.app",
+    "featured": true
+  },
+  {
+    "id": "cloud-vault-api",
+    "title": "CloudVault API Gateway",
+    "category": "Backend",
+    "tagline": "Scalable RESTful microservice gateway with rate limiting and automated caching.",
+    "description": "A resilient backend service architecture designed to route high-volume traffic with low overhead, featuring distributed rate-limiting, token verification, and automated Redis caching.",
+    "features": [
+      "Token-based stateless authentication with JWT rotation",
+      "Distributed token-bucket rate limiter backed by Redis",
+      "Comprehensive OpenAPI/Swagger interactive documentation",
+      "Structured JSON logging with request tracing and latency reporting"
+    ],
+    "technologies": ["Node.js", "Express", "TypeScript", "Redis", "Docker", "Jest"],
+    "imageUrl": "/images/projects/project-vault.svg",
+    "githubUrl": "https://github.com/yourusername/cloudvault-api-gateway",
+    "liveDemoUrl": "https://cloudvault-docs-demo.vercel.app",
+    "featured": true
+  },
+  {
+    "id": "task-craft-mobile",
+    "title": "TaskCraft Cross-Platform App",
+    "category": "Mobile Development",
+    "tagline": "Minimalist offline-first task tracker with fluid gesture navigation.",
+    "description": "A cross-platform mobile application emphasizing focus and friction-free habit tracking. Features offline synchronization, gestural interactions, and customizable priority matrixes.",
+    "features": [
+      "Offline-first local SQLite storage with background cloud synchronization",
+      "Fluid swipe gestures for fast item categorization and archive actions",
+      "Customizable notification scheduling for daily routines and deadlines",
+      "Accessible typography and haptic feedback on completion states"
+    ],
+    "technologies": ["React Native", "Expo", "TypeScript", "SQLite", "Reanimated"],
+    "imageUrl": "/images/projects/project-taskcraft.svg",
+    "githubUrl": "https://github.com/yourusername/taskcraft-mobile-app",
+    "liveDemoUrl": "https://taskcraft-preview.vercel.app",
+    "featured": false
+  }
+]

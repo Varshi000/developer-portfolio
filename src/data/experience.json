@@ -1,0 +1,37 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Full Stack Software Engineer",
+    "company": "Tech Innovations Studio",
+    "companyUrl": "https://example.com/company",
+    "location": "San Francisco, CA (Hybrid)",
+    "startDate": "2024",
+    "endDate": "Present",
+    "current": true,
+    "summary": "Building modern client-facing web applications, optimizing component architecture, and engineering resilient API integrations.",
+    "responsibilities": [
+      "Engineered core web application interfaces using Next.js, React, and TypeScript with strict type boundaries.",
+      "Collaborated closely with designers and product managers to implement fluid, accessible animations and responsive design systems.",
+      "Streamlined REST API endpoints and database queries in PostgreSQL, improving data fetch speeds by over 30%.",
+      "Authored automated integration test suites using Jest to maintain robust production stability."
+    ],
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "exp-2",
+    "role": "Frontend Developer",
+    "company": "Digital Media Labs",
+    "companyUrl": "https://example.com/studio",
+    "location": "Remote",
+    "startDate": "2022",
+    "endDate": "2024",
+    "current": false,
+    "summary": "Developed reactive web interfaces and component design libraries for high-traffic content and analytics portals.",
+    "responsibilities": [
+      "Built interactive dashboards and reusable UI components adhering to WCAG 2.1 AA accessibility standards.",
+      "Implemented client-side caching strategies and code-splitting, contributing to sub-second initial contentful paint times.",
+      "Participated actively in peer code reviews, sprint planning, and architectural technical documentation."
+    ],
+    "technologies": ["React", "JavaScript", "Tailwind CSS", "REST APIs", "Git", "Figma"]
+  }
+]

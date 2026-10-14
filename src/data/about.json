@@ -1,0 +1,49 @@
+{
+  "greeting": "About Me",
+  "headline": "Engineering modern, scalable web solutions with a passion for craftsmanship.",
+  "paragraphs": [
+    "Hello! I am a software engineer dedicated to building performant web applications and intuitive user interfaces. I enjoy transforming complex challenges into elegant, resilient systems.",
+    "My journey spans working across the entire web ecosystem—from crafting reactive user interfaces to architecting robust APIs and database structures. I prioritize writing clean, maintainable code with strict type-safety and thorough accessibility.",
+    "When I'm not writing code, I love exploring emerging web standards, contributing to open-source discussions, and constantly refining my understanding of system design and user experience."
+  ],
+  "highlights": [
+    {
+      "title": "Clean Architecture",
+      "description": "Component-driven design, modular state management, and maintainable TypeScript patterns.",
+      "iconName": "Code2"
+    },
+    {
+      "title": "Performance First",
+      "description": "Optimized Core Web Vitals, smart asset loading, and high-efficiency rendering pipelines.",
+      "iconName": "Zap"
+    },
+    {
+      "title": "Fluid Motion & UX",
+      "description": "Thoughtful, accessible animations that bring interfaces to life without causing cognitive friction.",
+      "iconName": "Sparkles"
+    },
+    {
+      "title": "Full-Stack Versatility",
+      "description": "Seamless integration between client interfaces, backend services, and structured databases.",
+      "iconName": "Layers"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "3+"
+    },
+    {
+      "label": "Projects Built",
+      "value": "15+"
+    },
+    {
+      "label": "Tech Stacks Mastered",
+      "value": "8+"
+    },
+    {
+      "label": "Commitment to Quality",
+      "value": "100%"
+    }
+  ]
+}

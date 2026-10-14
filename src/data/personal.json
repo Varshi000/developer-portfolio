@@ -1,0 +1,11 @@
+{
+  "name": "Alex Rivera",
+  "role": "Full Stack & Frontend Engineer",
+  "tagline": "Crafting performant web experiences with modern architectures, clean code, and fluid motion.",
+  "shortBio": "Software engineer specializing in building responsive, accessible, and high-impact digital experiences using modern web technologies.",
+  "location": "San Francisco, CA (or Remote)",
+  "avatarUrl": "/images/avatar-placeholder.svg",
+  "availableForHire": true,
+  "statusText": "Available for new opportunities",
+  "resumeDownloadUrl": "/resume/resume-placeholder.pdf"
+}
