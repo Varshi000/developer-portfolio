@@ -1,5 +1,42 @@
 [
   {
+    "id": "personal-finance-dashboard",
+    "title": "Interactive Personal Finance Dashboard",
+    "category": "FinTech & Web",
+    "tagline": "Modern financial analytics platform with real-time balance trends, expense breakdown, and role-based access.",
+    "description": "A comprehensive personal finance and budget analytics web application built with React, Vite, and interactive data visualizations. Features live balance tracking, categorized expense analytics, dynamic financial health insights, and role-based access control (Viewer Mode vs Admin Mode) with full transaction management.",
+    "features": [
+      "Dynamic KPI metric cards tracking Total Balance ($3,647+), Income, and Expenses",
+      "Interactive balance growth trend line chart and category-wise spending breakdown pie chart",
+      "Financial health insights highlighting highest spending categories and saving rate (89.5%)",
+      "Real-time transaction search, filtering (All / Income / Expenses), and date sorting",
+      "Role-Based Access Control (RBAC) with Viewer Mode and Admin Mode (+Add / Edit / Delete)"
+    ],
+    "technologies": ["ReactJS", "Vite", "TypeScript", "Tailwind CSS", "Recharts", "Lucide Icons", "Vercel"],
+    "imageUrl": "/images/projects/project-finance.svg",
+    "liveDemoUrl": "https://finance-dashboard-mu-lilac.vercel.app/",
+    "featured": true
+  },
+  {
+    "id": "vigovia-itinerary-generator",
+    "title": "Vigovia - Travel Itinerary Generator",
+    "category": "TravelTech & Web",
+    "tagline": "Interactive trip planning platform with daily activity scheduling, flight/hotel logistics, and PDF export.",
+    "description": "A comprehensive travel itinerary and vacation management platform engineered to streamline multi-day trip planning. Enables travelers to organize morning, afternoon, and evening schedules, track flight and hotel bookings, monitor visa status pipelines, manage installment payment plans, and generate exportable PDF itineraries.",
+    "features": [
+      "Dynamic trip builder with day-by-day morning, afternoon, and evening activity scheduling",
+      "Integrated flight logistics with amenity toggles (meals, baggage, seat preference, entertainment)",
+      "Hotel booking management with city-wise check-in/out tracking and stay duration calculations",
+      "Visa status tracking pipeline (Not Required, Applied, Approved, In Process)",
+      "Customizable payment plan & installment schedule with automated total balance and TCS tracking",
+      "One-click downloadable PDF itinerary export for offline travel reference"
+    ],
+    "technologies": ["ReactJS", "Tailwind CSS", "JavaScript", "PDF Export", "Lucide Icons", "Vercel"],
+    "imageUrl": "/images/projects/project-itinerary.svg",
+    "liveDemoUrl": "https://itinerary-generator-one.vercel.app/",
+    "featured": true
+  },
+  {
     "id": "smart-video-stream",
     "title": "Smart Video Feed & Stream Interact",
     "category": "AI & Full Stack",
@@ -17,18 +54,21 @@
   },
   {
     "id": "ezstaf-job-platform",
-    "title": "ezstaf - Scalable AI Job Platform",
+    "title": "ezstaf - AI Mobile Job Platform",
     "category": "AI & Mobile",
-    "tagline": "Cross-platform job marketplace with MCP Server architecture, speech-to-text, and conversational AI.",
-    "description": "A scalable cross-platform job platform connecting job seekers with employers through an intuitive mobile experience. Integrates AI-powered chatbot features using Model Context Protocol (MCP) Server, speech-to-text processing, ffmpeg audio handling, and conversational workflows to maximize user engagement and accessibility.",
+    "tagline": "Production mobile recruitment platform released to Google Play Store with Flutter, FastAPI, & MCP Server.",
+    "description": "A production cross-platform mobile application published on the Google Play Store connecting job seekers with recruiters. Spearheaded the end-to-end engineering and release lifecycle: built high-performance Flutter mobile interfaces, engineered scalable FastAPI microservices with PostgreSQL, integrated conversational AI workflows via Model Context Protocol (MCP) Server, and constructed an audio pipeline using Speech-to-Text and ffmpeg.",
     "features": [
-      "Cross-platform mobile application engineered with Flutter for smooth UX",
-      "High-performance backend APIs using FastAPI and PostgreSQL",
-      "Model Context Protocol (MCP) server integration for intelligent conversational workflows",
-      "Speech-to-Text (STT) processing and ffmpeg audio pipeline for voice-assisted job discovery",
-      "Secure JWT authentication, candidate profile management, and resume handling"
+      "End-to-end engineering leadership through Google Play Store production release",
+      "Cross-platform mobile application engineered with Flutter for smooth candidate onboarding",
+      "High-performance backend RESTful microservices powered by FastAPI and PostgreSQL",
+      "Model Context Protocol (MCP) server integration for intelligent conversational job discovery",
+      "Speech-to-Text (STT) processing pipeline and ffmpeg audio handling for voice-assisted search",
+      "Production-grade JWT authentication, candidate profile management, and secure resume handling"
     ],
-    "technologies": ["Flutter", "FastAPI", "PostgreSQL", "MCP Server", "Speech-to-Text", "JWT", "ffmpeg"],
+    "technologies": ["Flutter", "FastAPI", "PostgreSQL", "Google Play Store", "MCP Server", "Speech-to-Text", "JWT", "ffmpeg"],
+    "badge": "Google Play Store",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.tritech.ezstaf",
     "imageUrl": "/images/projects/project-taskcraft.svg",
     "featured": true
   },
