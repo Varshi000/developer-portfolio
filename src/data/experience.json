@@ -3,7 +3,7 @@
     "id": "tri-tech-innovations",
     "role": "AI Application & Full-Stack Developer",
     "company": "Tri Tech Innovations Private Limited",
-    "companyUrl": "https://tritechinnovations.com",
+    "companyUrl": "https://in.linkedin.com/company/tritechinnovationsprivatelimited",
     "location": "India",
     "startDate": "Oct 2025",
     "endDate": "Oct 2026",
@@ -11,7 +11,7 @@
     "summary": "Engineering scalable web and mobile applications integrating conversational AI, MCP server architectures, and high-performance FastAPI backends.",
     "responsibilities": [
       "Applicant Management System: Built a full-featured automated recruitment system with role-based access control, candidate tracking, interview scheduling, and real-time status updates using ReactJS, FastAPI, and MySQL.",
-      "ezstaf Job Platform: Engineered a scalable cross-platform mobile job portal using Flutter, FastAPI, and PostgreSQL connecting job seekers with employers.",
+      "ezstaf Job Platform (Google Play Store): Spearheaded the end-to-end architecture, development, and production deployment of a cross-platform mobile recruitment app to the Google Play Store using Flutter, FastAPI, and PostgreSQL.",
       "AI Chatbot & Speech Processing: Integrated conversational chatbot workflows using Model Context Protocol (MCP) Server, Speech-to-Text (STT) audio pipelines, and ffmpeg processing.",
       "Security & Performance: Implemented secure JWT authentication, profile management, and resilient RESTful microservice APIs optimized for high speed and reliability."
     ],

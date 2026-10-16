@@ -52,6 +52,8 @@ export interface ProjectItem {
   imageUrl: string;
   githubUrl?: string;
   liveDemoUrl?: string;
+  playStoreUrl?: string;
+  badge?: string;
   featured: boolean;
 }
 
