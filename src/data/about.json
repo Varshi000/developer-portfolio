@@ -8,7 +8,7 @@
   ],
   "highlights": [
     {
-      "title": "AI & GenAI Integration",
+      "title": "AI Integration",
       "description": "Hands-on experience building LLM applications, MCP Server architecture, and speech-to-text conversational pipelines.",
       "iconName": "Sparkles"
     },
@@ -31,7 +31,7 @@
   "stats": [
     {
       "label": "Industry Experience",
-      "value": "1+ Yr"
+      "value": "8+ Mons"
     },
     {
       "label": "B.Tech Academics",
@@ -47,4 +47,3 @@
     }
   ]
 }
-
