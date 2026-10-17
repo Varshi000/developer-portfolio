@@ -5,18 +5,28 @@
     "company": "Tritech Innovations Private Limited",
     "companyUrl": "https://in.linkedin.com/company/tritechinnovationsprivatelimited",
     "location": "Hyderabad, Telangana, India · On-site",
-    "startDate": "Feb 2026",
+    "startDate": "Jul 2026",
     "endDate": "Oct 2026",
     "current": false,
     "employmentType": "Full-time",
-    "summary": "Architected and delivered scalable production AI systems, conversational microservice backends, and cross-platform mobile recruitment platforms.",
+    "summary": "Architected and delivered scalable production AI systems, LLM-powered conversational chatbots, microservice backends, and cross-platform mobile platforms.",
     "responsibilities": [
-      "ezstaf Mobile Platform (Google Play Store): Spearheaded the end-to-end backend architecture using FastAPI and PostgreSQL, and built cross-platform mobile interfaces in Flutter for production release on Google Play Store.",
-      "Conversational AI & MCP Server: Integrated Model Context Protocol (MCP) server architectures to enable contextual AI workflows, tool calling, and automated job seeker discovery.",
-      "Audio & Speech Processing: Engineered an automated audio pipeline utilizing speech-to-text (STT) models and ffmpeg stream processing for voice-assisted interactions.",
-      "Microservice Security & Performance: Built high-throughput RESTful microservices with JWT authentication, granular role-based access control (RBAC), and query optimization."
+      "ezstaf LLM Chatbot & AI Engine: Spearheaded the end-to-end design and engineering of the conversational AI Chatbot powered by Large Language Models (LLMs) and Model Context Protocol (MCP) Server for intelligent candidate discovery and interactive job matching.",
+      "FastAPI & Mobile Architecture: Built scalable backend microservices using FastAPI and PostgreSQL, alongside cross-platform mobile interfaces in Flutter.",
+      "Audio & Voice Pipeline: Engineered an automated audio pipeline utilizing speech-to-text (STT) models and ffmpeg stream processing for voice-assisted interaction.",
+      "Microservice Security & Performance: Implemented high-throughput RESTful microservices with JWT authentication, granular role-based access control (RBAC), and query optimization."
     ],
-    "technologies": ["Artificial Intelligence (AI)", "FastAPI", "Python", "MCP Server", "Speech-to-Text", "Flutter", "PostgreSQL", "JWT", "ffmpeg", "Docker"]
+    "technologies": [
+      "LLMs",
+      "AI Chatbot",
+      "MCP Server",
+      "FastAPI",
+      "Python",
+      "Flutter",
+      "PostgreSQL",
+      "Speech-to-Text",
+      "JWT"
+    ]
   },
   {
     "id": "tritech-ai-intern",
@@ -24,8 +34,8 @@
     "company": "Tritech Innovations Private Limited",
     "companyUrl": "https://in.linkedin.com/company/tritechinnovationsprivatelimited",
     "location": "Hyderabad, Telangana, India · On-site",
-    "startDate": "Oct 2025",
-    "endDate": "Feb 2026",
+    "startDate": "Feb 2026",
+    "endDate": "Jun 2026",
     "current": false,
     "employmentType": "Apprenticeship",
     "summary": "Engineered automated recruitment systems, candidate workflow pipelines, and intelligent conversational prototypes.",
@@ -34,42 +44,12 @@
       "Conversational Workflows: Developed AI chatbot interaction flows and prompt engineering pipelines to streamline candidate profile queries.",
       "API & Schema Development: Designed modular RESTful microservice APIs and managed relational database schemas and migrations."
     ],
-    "technologies": ["FastAPI", "Python", "ReactJS", "MySQL", "REST APIs", "AI Automation", "Prompt Engineering"]
-  },
-  {
-    "id": "technical-hub-fullstack",
-    "role": "Full stack trainee",
-    "company": "TECHNICAL HUB",
-    "companyUrl": "https://technicalhub.io",
-    "location": "Surampalem, Andhra Pradesh, India · On-site",
-    "startDate": "Jun 2023",
-    "endDate": "Nov 2023",
-    "current": false,
-    "employmentType": "Full-time (During B.Tech)",
-    "summary": "Intensive hands-on campus technical apprenticeship focused on responsive web development, modern frontend frameworks, and full-stack software practices.",
-    "responsibilities": [
-      "Responsive Frontend Development: Designed and built modern, cross-browser responsive web pages and components using Bootstrap, CSS3, and HTML5.",
-      "Dynamic User Interfaces: Implemented interactive UI components, client-side form validations, and DOM manipulation using JavaScript.",
-      "Agile & Version Control: Collaborated on sprint tasks, structured code reviews, and managed version control workflows using Git and GitHub."
-    ],
-    "technologies": ["Bootstrap (Framework)", "Cascading Style Sheets (CSS)", "HTML5", "JavaScript", "Responsive Design", "Git", "GitHub"]
-  },
-  {
-    "id": "technical-hub-trainee",
-    "role": "Trainee (Core Programming)",
-    "company": "TECHNICAL HUB",
-    "companyUrl": "https://technicalhub.io",
-    "location": "Surampalem, Andhra Pradesh, India · On-site",
-    "startDate": "Dec 2021",
-    "endDate": "May 2023",
-    "current": false,
-    "employmentType": "Trainee (During B.Tech)",
-    "summary": "Rigorous foundational programming and computer science apprenticeship building deep expertise in algorithmic problem solving and object-oriented design.",
-    "responsibilities": [
-      "Algorithmic Problem Solving: Completed extensive data structures and algorithmic challenge implementations in Java and C.",
-      "Object-Oriented Design: Mastered core OOP paradigms including inheritance, polymorphism, encapsulation, abstraction, and memory efficiency.",
-      "Industry Certifications: Completed industry-recognized certifications across Java, Python, and Oracle Database Management systems."
-    ],
-    "technologies": ["C (Programming Language)", "Java", "Data Structures", "Algorithms", "Object-Oriented Programming", "DBMS"]
+    "technologies": [
+      "FastAPI",
+      "Python",
+      "ReactJS",
+      "MySQL",
+      "REST APIs"
+    ]
   }
 ]

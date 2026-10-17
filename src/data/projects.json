@@ -12,7 +12,15 @@
       "Real-time transaction search, filtering (All / Income / Expenses), and date sorting",
       "Role-Based Access Control (RBAC) with Viewer Mode and Admin Mode (+Add / Edit / Delete)"
     ],
-    "technologies": ["ReactJS", "Vite", "TypeScript", "Tailwind CSS", "Recharts", "Lucide Icons", "Vercel"],
+    "technologies": [
+      "ReactJS",
+      "Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "Recharts",
+      "Lucide Icons",
+      "Vercel"
+    ],
     "imageUrl": "/images/projects/project-finance.svg",
     "liveDemoUrl": "https://finance-dashboard-mu-lilac.vercel.app/",
     "featured": true
@@ -31,7 +39,14 @@
       "Customizable payment plan & installment schedule with automated total balance and TCS tracking",
       "One-click downloadable PDF itinerary export for offline travel reference"
     ],
-    "technologies": ["ReactJS", "Tailwind CSS", "JavaScript", "PDF Export", "Lucide Icons", "Vercel"],
+    "technologies": [
+      "ReactJS",
+      "Tailwind CSS",
+      "JavaScript",
+      "PDF Export",
+      "Lucide Icons",
+      "Vercel"
+    ],
     "imageUrl": "/images/projects/project-itinerary.svg",
     "liveDemoUrl": "https://itinerary-generator-one.vercel.app/",
     "featured": true
@@ -49,9 +64,15 @@
       "Mobile-optimized touch interface tested for seamless performance across smartphones and tablets",
       "Seamless checkout experience integrated with localized currency formatting and tax calculations"
     ],
-    "technologies": ["Shopify Storefront", "Liquid", "JavaScript", "CSS3 / Responsive UI", "E-Commerce", "Payment Gateways", "REST APIs"],
+    "technologies": [
+      "ReactJS",
+      "JavaScript",
+      "CSS3 / Responsive UI",
+      "E-Commerce",
+      "Payment Gateways",
+      "REST APIs"
+    ],
     "badge": "Freelance Client Store",
-    "liveDemoUrl": "https://ravitejahomefoods.in/",
     "imageUrl": "/images/projects/project-ecommerce.svg",
     "featured": true
   },
@@ -67,7 +88,14 @@
       "Embedded AI-powered chatbot providing contextual answers during video playback",
       "Responsive ReactJS frontend with Node.js and MongoDB backend architecture"
     ],
-    "technologies": ["ReactJS", "Node.js", "MongoDB", "CSS3", "AI Chatbot", "NLP Processing"],
+    "technologies": [
+      "ReactJS",
+      "Node.js",
+      "MongoDB",
+      "CSS3",
+      "AI Chatbot",
+      "NLP Processing"
+    ],
     "imageUrl": "/images/projects/project-devflow.svg",
     "featured": true
   },
@@ -75,19 +103,29 @@
     "id": "ezstaf-job-platform",
     "title": "ezstaf - AI Mobile Job Platform",
     "category": "AI & Mobile",
-    "tagline": "Production mobile recruitment platform released to Google Play Store with Flutter, FastAPI, & MCP Server.",
-    "description": "A production cross-platform mobile application published on the Google Play Store connecting job seekers with recruiters. Spearheaded the end-to-end engineering and release lifecycle: built high-performance Flutter mobile interfaces, engineered scalable FastAPI microservices with PostgreSQL, integrated conversational AI workflows via Model Context Protocol (MCP) Server, and constructed an audio pipeline using Speech-to-Text and ffmpeg.",
+    "tagline": "Intelligent mobile recruitment platform powered by an LLM-driven conversational chatbot, MCP Server, and FastAPI backends.",
+    "description": "A production cross-platform mobile application connecting job seekers with employers through an intelligent conversational interface. Spearheaded the end-to-end design and engineering of an interactive AI Chatbot powered by Large Language Models (LLMs) and Model Context Protocol (MCP) Server for automated candidate screening, context-aware query resolution, and dynamic job discovery. Built high-performance Flutter mobile interfaces, scalable FastAPI microservices with PostgreSQL, and an audio pipeline using Speech-to-Text and ffmpeg.",
     "features": [
-      "End-to-end engineering leadership through Google Play Store production release",
-      "Cross-platform mobile application engineered with Flutter for smooth candidate onboarding",
-      "High-performance backend RESTful microservices powered by FastAPI and PostgreSQL",
-      "Model Context Protocol (MCP) server integration for intelligent conversational job discovery",
-      "Speech-to-Text (STT) processing pipeline and ffmpeg audio handling for voice-assisted search",
-      "Production-grade JWT authentication, candidate profile management, and secure resume handling"
+      "LLM Conversational AI Chatbot: Architected and engineered an intelligent chatbot powered by Large Language Models (LLMs) to guide job seekers, parse user preferences, and automate job discovery in real time",
+      "Model Context Protocol (MCP) Server Integration: Engineered structured tool-calling pipelines connecting the LLM agent directly with recruitment databases for accurate, hallucination-free responses",
+      "Speech-to-Text (STT) Audio Pipeline: Integrated STT models and ffmpeg stream handling enabling voice-assisted conversational job discovery",
+      "Scalable Backend Microservices: Designed high-throughput RESTful microservices with FastAPI, PostgreSQL, and connection pooling",
+      "Enterprise Security & Auth: Implemented production-grade JWT authentication, candidate profile management, and secure applicant handling",
+      "Cross-Platform Mobile Interface: Engineered responsive, high-performance Flutter mobile views with smooth interactive chat flows"
     ],
-    "technologies": ["Flutter", "FastAPI", "PostgreSQL", "Google Play Store", "MCP Server", "Speech-to-Text", "JWT", "ffmpeg"],
+    "technologies": [
+      "LLMs",
+      "AI Chatbot",
+      "MCP Server",
+      "Prompt Engineering",
+      "FastAPI",
+      "Python",
+      "Flutter",
+      "PostgreSQL",
+      "Speech-to-Text",
+      "JWT"
+    ],
     "badge": "Google Play Store",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.tritech.ezstaf",
     "imageUrl": "/images/projects/project-taskcraft.svg",
     "featured": true
   },
@@ -103,7 +141,14 @@
       "Real-time applicant tracking, resume management, and interview schedule coordination",
       "High-speed backend microservices built with FastAPI and MySQL relational database"
     ],
-    "technologies": ["ReactJS", "FastAPI", "MySQL", "REST APIs", "Tailwind CSS", "JWT"],
+    "technologies": [
+      "ReactJS",
+      "FastAPI",
+      "MySQL",
+      "REST APIs",
+      "Tailwind CSS",
+      "JWT"
+    ],
     "imageUrl": "/images/projects/project-vault.svg",
     "featured": true
   },
@@ -119,9 +164,15 @@
       "Administrative functionalities with secure data handling and operational efficiency",
       "Scalable MongoDB document storage paired with responsive ReactJS UI"
     ],
-    "technologies": ["ReactJS", "Node.js", "MongoDB", "CSS3", "REST APIs", "Express"],
+    "technologies": [
+      "ReactJS",
+      "Node.js",
+      "MongoDB",
+      "CSS3",
+      "REST APIs",
+      "Express"
+    ],
     "imageUrl": "/images/projects/project-pulse.svg",
     "featured": false
   }
 ]
-
