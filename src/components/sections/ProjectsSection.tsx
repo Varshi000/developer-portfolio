@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
-import { ExternalLink, Sparkles, FolderGit2, Bot, Smartphone, Layers, Server, TrendingUp, Plane, Info } from "lucide-react";
+import { ExternalLink, Sparkles, FolderGit2, Bot, Smartphone, Layers, Server, TrendingUp, Plane, Info, ShoppingBag } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { Card } from "@/components/ui/Card";
@@ -28,6 +28,7 @@ export const ProjectsSection: React.FC = () => {
 
   const getProjectIcon = (category: string) => {
     const cat = category.toLowerCase();
+    if (cat.includes("commerce") || cat.includes("food") || cat.includes("d2c")) return <ShoppingBag className="w-6 h-6" />;
     if (cat.includes("travel") || cat.includes("itinerary")) return <Plane className="w-6 h-6" />;
     if (cat.includes("fin")) return <TrendingUp className="w-6 h-6" />;
     if (cat.includes("ai")) return <Bot className="w-6 h-6" />;
@@ -101,21 +102,20 @@ export const ProjectsSection: React.FC = () => {
                   </div>
 
                   {/* Live Status or Custom Badge */}
-                  {project.liveDemoUrl ? (
-                    <div className="absolute top-3 left-3 z-10">
+                  <div className="absolute top-3 left-3 z-10 flex flex-wrap items-center gap-1.5 max-w-[calc(100%-110px)]">
+                    {project.liveDemoUrl && (
                       <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-medium bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 backdrop-blur-md shadow-sm">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
                         Live Demo
                       </span>
-                    </div>
-                  ) : project.badge ? (
-                    <div className="absolute top-3 left-3 z-10">
+                    )}
+                    {project.badge && (
                       <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-medium bg-cyan-500/15 border border-cyan-500/30 text-cyan-300 backdrop-blur-md shadow-sm">
                         <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
                         {project.badge}
                       </span>
-                    </div>
-                  ) : null}
+                    )}
+                  </div>
 
                   {/* Featured Badge */}
                   {project.featured && (

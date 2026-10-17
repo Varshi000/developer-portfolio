@@ -71,7 +71,20 @@ export const ExperienceSection: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
+                      {item.employmentType && (
+                        <Badge
+                          variant={
+                            item.employmentType.toLowerCase().includes("b.tech") ||
+                            item.employmentType.toLowerCase().includes("education")
+                              ? "outline"
+                              : "purple"
+                          }
+                          size="sm"
+                        >
+                          {item.employmentType}
+                        </Badge>
+                      )}
                       {item.current && (
                         <Badge variant="success" size="sm">
                           Current

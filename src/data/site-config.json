@@ -23,7 +23,7 @@
     { "id": "education", "label": "Education", "href": "#education" },
     { "id": "contact", "label": "Contact", "href": "#contact" }
   ],
-  "resumeUrl": "#contact",
+  "resumeUrl": "/resume/Hema_Varshini_Kommoju_Resume.pdf",
   "footerText": "Designed & Built by Hema Varshini Kommoju. Powered by Next.js, TypeScript, Tailwind CSS & Motion."
 }
 

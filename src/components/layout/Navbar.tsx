@@ -93,6 +93,7 @@ export const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center gap-3">
             <Button
               href={personal.resumeDownloadUrl}
+              download="Hema_Varshini_Kommoju_Resume.pdf"
               variant="outline"
               size="sm"
               icon={<FileDown className="w-4 h-4" />}
@@ -151,6 +152,7 @@ export const Navbar: React.FC = () => {
               <div className="pt-3 border-t border-white/[0.08] mt-2">
                 <Button
                   href={personal.resumeDownloadUrl}
+                  download="Hema_Varshini_Kommoju_Resume.pdf"
                   variant="primary"
                   size="md"
                   icon={<FileDown className="w-4 h-4" />}
