@@ -111,6 +111,7 @@ export const HeroSection: React.FC = () => {
 
               <Button
                 href={personal.resumeDownloadUrl}
+                download="Hema_Varshini_Kommoju_Resume.pdf"
                 variant="secondary"
                 size="lg"
                 icon={<FileDown className="w-4 h-4" />}

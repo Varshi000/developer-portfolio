@@ -37,6 +37,25 @@
     "featured": true
   },
   {
+    "id": "raviteja-home-foods",
+    "title": "Ravi Teja Home Foods",
+    "category": "E-Commerce & D2C",
+    "tagline": "D2C traditional sweets & foods platform with dynamic catalog, smart cart drawer, and order tracking.",
+    "description": "A production direct-to-consumer (D2C) food e-commerce platform engineered for an authentic South Indian homemade sweets brand. Built a high-conversion digital shopping storefront featuring organized product collections (Annamayya Laddu, Aresalu, Dry fruit specialties), interactive flyout cart with instant price calculations, customer order lookup workflows, and mobile-first responsiveness.",
+    "features": [
+      "Dynamic catalog browsing across traditional Andhra sweets, savories, and seasonal festival packs",
+      "Interactive Quick-Add and slide-over Cart Drawer with real-time quantity modifiers and price updates",
+      "Customer order lookup and tracking pipeline for real-time shipment transparency",
+      "Mobile-optimized touch interface tested for seamless performance across smartphones and tablets",
+      "Seamless checkout experience integrated with localized currency formatting and tax calculations"
+    ],
+    "technologies": ["Shopify Storefront", "Liquid", "JavaScript", "CSS3 / Responsive UI", "E-Commerce", "Payment Gateways", "REST APIs"],
+    "badge": "Freelance Client Store",
+    "liveDemoUrl": "https://ravitejahomefoods.in/",
+    "imageUrl": "/images/projects/project-ecommerce.svg",
+    "featured": true
+  },
+  {
     "id": "smart-video-stream",
     "title": "Smart Video Feed & Stream Interact",
     "category": "AI & Full Stack",

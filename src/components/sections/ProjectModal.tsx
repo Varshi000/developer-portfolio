@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { X, ExternalLink, Check, Sparkles, FolderGit2, Bot, Smartphone, Layers, Server, TrendingUp, Plane } from "lucide-react";
+import { X, ExternalLink, Check, Sparkles, FolderGit2, Bot, Smartphone, Layers, Server, TrendingUp, Plane, ShoppingBag } from "lucide-react";
 import { GithubIcon } from "@/components/ui/IconRenderer";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
@@ -42,6 +42,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
 
   const getProjectIcon = (category: string) => {
     const cat = category.toLowerCase();
+    if (cat.includes("commerce") || cat.includes("food") || cat.includes("d2c")) return <ShoppingBag className="w-5 h-5" />;
     if (cat.includes("travel") || cat.includes("itinerary")) return <Plane className="w-5 h-5" />;
     if (cat.includes("fin")) return <TrendingUp className="w-5 h-5" />;
     if (cat.includes("ai")) return <Bot className="w-5 h-5" />;

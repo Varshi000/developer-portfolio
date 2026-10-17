@@ -66,6 +66,7 @@ export interface ExperienceItem {
   startDate: string;
   endDate: string; // or "Present"
   current: boolean;
+  employmentType?: string;
   summary: string;
   responsibilities: string[];
   technologies: string[];

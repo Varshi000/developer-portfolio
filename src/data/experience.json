@@ -1,21 +1,75 @@
 [
   {
-    "id": "tri-tech-innovations",
-    "role": "AI Application & Full-Stack Developer",
-    "company": "Tri Tech Innovations Private Limited",
+    "id": "tritech-ai-engineer",
+    "role": "AI Engineer",
+    "company": "Tritech Innovations Private Limited",
     "companyUrl": "https://in.linkedin.com/company/tritechinnovationsprivatelimited",
-    "location": "India",
-    "startDate": "Oct 2025",
+    "location": "Hyderabad, Telangana, India · On-site",
+    "startDate": "Feb 2026",
     "endDate": "Oct 2026",
-    "current": true,
-    "summary": "Engineering scalable web and mobile applications integrating conversational AI, MCP server architectures, and high-performance FastAPI backends.",
+    "current": false,
+    "employmentType": "Full-time",
+    "summary": "Architected and delivered scalable production AI systems, conversational microservice backends, and cross-platform mobile recruitment platforms.",
     "responsibilities": [
-      "Applicant Management System: Built a full-featured automated recruitment system with role-based access control, candidate tracking, interview scheduling, and real-time status updates using ReactJS, FastAPI, and MySQL.",
-      "ezstaf Job Platform (Google Play Store): Spearheaded the end-to-end architecture, development, and production deployment of a cross-platform mobile recruitment app to the Google Play Store using Flutter, FastAPI, and PostgreSQL.",
-      "AI Chatbot & Speech Processing: Integrated conversational chatbot workflows using Model Context Protocol (MCP) Server, Speech-to-Text (STT) audio pipelines, and ffmpeg processing.",
-      "Security & Performance: Implemented secure JWT authentication, profile management, and resilient RESTful microservice APIs optimized for high speed and reliability."
+      "ezstaf Mobile Platform (Google Play Store): Spearheaded the end-to-end backend architecture using FastAPI and PostgreSQL, and built cross-platform mobile interfaces in Flutter for production release on Google Play Store.",
+      "Conversational AI & MCP Server: Integrated Model Context Protocol (MCP) server architectures to enable contextual AI workflows, tool calling, and automated job seeker discovery.",
+      "Audio & Speech Processing: Engineered an automated audio pipeline utilizing speech-to-text (STT) models and ffmpeg stream processing for voice-assisted interactions.",
+      "Microservice Security & Performance: Built high-throughput RESTful microservices with JWT authentication, granular role-based access control (RBAC), and query optimization."
     ],
-    "technologies": ["FastAPI", "ReactJS", "Flutter", "PostgreSQL", "MySQL", "MCP Server", "Speech-to-Text", "JWT", "Node.js"]
+    "technologies": ["Artificial Intelligence (AI)", "FastAPI", "Python", "MCP Server", "Speech-to-Text", "Flutter", "PostgreSQL", "JWT", "ffmpeg", "Docker"]
+  },
+  {
+    "id": "tritech-ai-intern",
+    "role": "AI & Automation Intern",
+    "company": "Tritech Innovations Private Limited",
+    "companyUrl": "https://in.linkedin.com/company/tritechinnovationsprivatelimited",
+    "location": "Hyderabad, Telangana, India · On-site",
+    "startDate": "Oct 2025",
+    "endDate": "Feb 2026",
+    "current": false,
+    "employmentType": "Apprenticeship",
+    "summary": "Engineered automated recruitment systems, candidate workflow pipelines, and intelligent conversational prototypes.",
+    "responsibilities": [
+      "Applicant Management System: Built a full-featured automated recruitment system with candidate tracking, role-based access, interview scheduling, and status updates using ReactJS, FastAPI, and MySQL.",
+      "Conversational Workflows: Developed AI chatbot interaction flows and prompt engineering pipelines to streamline candidate profile queries.",
+      "API & Schema Development: Designed modular RESTful microservice APIs and managed relational database schemas and migrations."
+    ],
+    "technologies": ["FastAPI", "Python", "ReactJS", "MySQL", "REST APIs", "AI Automation", "Prompt Engineering"]
+  },
+  {
+    "id": "technical-hub-fullstack",
+    "role": "Full stack trainee",
+    "company": "TECHNICAL HUB",
+    "companyUrl": "https://technicalhub.io",
+    "location": "Surampalem, Andhra Pradesh, India · On-site",
+    "startDate": "Jun 2023",
+    "endDate": "Nov 2023",
+    "current": false,
+    "employmentType": "Full-time (During B.Tech)",
+    "summary": "Intensive hands-on campus technical apprenticeship focused on responsive web development, modern frontend frameworks, and full-stack software practices.",
+    "responsibilities": [
+      "Responsive Frontend Development: Designed and built modern, cross-browser responsive web pages and components using Bootstrap, CSS3, and HTML5.",
+      "Dynamic User Interfaces: Implemented interactive UI components, client-side form validations, and DOM manipulation using JavaScript.",
+      "Agile & Version Control: Collaborated on sprint tasks, structured code reviews, and managed version control workflows using Git and GitHub."
+    ],
+    "technologies": ["Bootstrap (Framework)", "Cascading Style Sheets (CSS)", "HTML5", "JavaScript", "Responsive Design", "Git", "GitHub"]
+  },
+  {
+    "id": "technical-hub-trainee",
+    "role": "Trainee (Core Programming)",
+    "company": "TECHNICAL HUB",
+    "companyUrl": "https://technicalhub.io",
+    "location": "Surampalem, Andhra Pradesh, India · On-site",
+    "startDate": "Dec 2021",
+    "endDate": "May 2023",
+    "current": false,
+    "employmentType": "Trainee (During B.Tech)",
+    "summary": "Rigorous foundational programming and computer science apprenticeship building deep expertise in algorithmic problem solving and object-oriented design.",
+    "responsibilities": [
+      "Algorithmic Problem Solving: Completed extensive data structures and algorithmic challenge implementations in Java and C.",
+      "Object-Oriented Design: Mastered core OOP paradigms including inheritance, polymorphism, encapsulation, abstraction, and memory efficiency.",
+      "Industry Certifications: Completed industry-recognized certifications across Java, Python, and Oracle Database Management systems."
+    ],
+    "technologies": ["C (Programming Language)", "Java", "Data Structures", "Algorithms", "Object-Oriented Programming", "DBMS"]
   }
 ]
-

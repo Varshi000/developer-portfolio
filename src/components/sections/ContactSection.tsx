@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
-import { Mail, Copy, Check, Send, Sparkles, MessageSquare } from "lucide-react";
+import { Mail, Copy, Check, Send, Sparkles, MessageSquare, AlertCircle } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { Card } from "@/components/ui/Card";
@@ -17,10 +17,11 @@ export const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   // Extract raw email from socialLinks or default
   const emailLink = socialLinks.find((s) => s.id === "email");
-  const emailAddress = emailLink?.url.replace("mailto:", "") || "your.email@example.com";
+  const emailAddress = emailLink?.url.replace("mailto:", "") || "varshikommu786@gmail.com";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
@@ -28,22 +29,47 @@ export const ContactSection: React.FC = () => {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
 
     setIsSubmitting(true);
-    // Simulate interactive submission state
-    setTimeout(() => {
+    setErrorMessage(null);
+
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${emailAddress}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _subject: `New Portfolio Message from ${formData.name}`,
+          _replyto: formData.email,
+          _captcha: "false",
+          _template: "table",
+        }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && (result.success === "true" || result.success === true || result.message)) {
+        setIsSubmitted(true);
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        throw new Error(result.message || "Failed to send message. Please try again.");
+      }
+    } catch (err: unknown) {
+      console.error("Form submit error:", err);
+      setErrorMessage(
+        "Could not send automatically. Please click below to send via your email client or contact directly."
+      );
+    } finally {
       setIsSubmitting(false);
-      setIsSubmitted(true);
-      // Trigger mailto client as fallback
-      window.location.href = `mailto:${emailAddress}?subject=Portfolio Inquiry from ${encodeURIComponent(
-        formData.name
-      )}&body=${encodeURIComponent(
-        `From: ${formData.name} (${formData.email})\n\nMessage:\n${formData.message}`
-      )}`;
-    }, 600);
+    }
   };
 
   return (
@@ -147,27 +173,47 @@ export const ContactSection: React.FC = () => {
 
               {isSubmitted ? (
                 <div className="py-12 text-center flex flex-col items-center justify-center space-y-3">
-                  <div className="w-12 h-12 rounded-full bg-emerald-950/60 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mb-2">
-                    <Check className="w-6 h-6" />
+                  <div className="w-14 h-14 rounded-full bg-emerald-950/60 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mb-2 shadow-lg shadow-emerald-950/40">
+                    <Check className="w-7 h-7" />
                   </div>
-                  <h4 className="text-lg font-semibold text-white">Message Prepared!</h4>
-                  <p className="text-xs sm:text-sm text-neutral-400 max-w-sm">
-                    Your email client has been opened with your inquiry. You can also reach out directly at {emailAddress}.
+                  <h4 className="text-xl font-bold text-white">Message Sent Successfully!</h4>
+                  <p className="text-xs sm:text-sm text-neutral-300 max-w-md leading-relaxed">
+                    Thank you for reaching out! Your message has been sent directly to{" "}
+                    <span className="text-purple-300 font-mono font-medium">{emailAddress}</span>.
+                    I will review it and get back to you shortly.
                   </p>
                   <Button
                     variant="outline"
                     size="sm"
                     onClick={() => {
                       setIsSubmitted(false);
+                      setErrorMessage(null);
                       setFormData({ name: "", email: "", message: "" });
                     }}
                     className="mt-4"
                   >
-                    Send Another Note
+                    Send Another Message
                   </Button>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
+                  {errorMessage && (
+                    <div className="p-3 rounded-xl bg-red-950/40 border border-red-500/30 text-red-300 text-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <AlertCircle className="w-4 h-4 shrink-0 text-red-400" />
+                        <span>{errorMessage}</span>
+                      </div>
+                      <a
+                        href={`mailto:${emailAddress}?subject=Portfolio Inquiry from ${encodeURIComponent(
+                          formData.name || "Visitor"
+                        )}&body=${encodeURIComponent(formData.message || "")}`}
+                        className="underline font-semibold hover:text-white shrink-0"
+                      >
+                        Send via Mail App →
+                      </a>
+                    </div>
+                  )}
+
                   <div>
                     <label
                       htmlFor="contact-name"
@@ -243,7 +289,7 @@ export const ContactSection: React.FC = () => {
                     iconPosition="right"
                     className="w-full justify-center"
                   >
-                    {isSubmitting ? "Preparing..." : "Send Message"}
+                    {isSubmitting ? "Sending Message..." : "Send Message"}
                   </Button>
                 </form>
               )}
